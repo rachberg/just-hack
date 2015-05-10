@@ -26,9 +26,11 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100%;
 	margin-top:50px;
 	height: 550px;
-	background-image:url('../cover_pic.png');
+	background-image:url('../images/wide_pic.jpg');
 	background-position:center;
 	background-repeat:no-repeat;
+	background-size: cover;
+
 }
 
 .navbar-brand {
