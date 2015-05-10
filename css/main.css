@@ -1,40 +1,38 @@
+/*using compound color scheme colors*/
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Montserrat";
-	color: #337ab7 !important;
+  font-family: Montserrat, Helvetica, sans-serif;
+  color: #e5db37 !important;
 }
 
 .dropdown-menu > .active > a:focus {
-	+  background-color: rgba(51, 122, 183,0.8);
+  background-color: rgba(51, 122, 183, 0.8);
 }
 
- .nav {
- 	height: 20px;
- }
+.nav {
+  height: 20px;
+}
 
- .nav > li > a:hover, 
- .nav > li > a:focus {
-	color: #fff;
-	background-color: rgba(51, 122, 183, 0.8);
- } 
+.nav > li > a:hover,
+.nav > li > a:focus {
+  color: white;
+  background-color: rgba(51, 122, 183, 0.8);
+}
 
- .nav-pills > li.active > a:hover,
- .nav-pills > li.active > a:focus {
- 	background-color: rgba(51, 122, 183,0.8);
- }
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  background-color: rgba(51, 122, 183, 0.8);
+}
 
- .wide {
-	width: 100%;
-	margin-top:50px;
-	height: 550px;
-	background-image:url('../images/wide_pic.jpg');
-	background-position:center;
-	background-repeat:no-repeat;
-	background-size: cover;
-
+.wide {
+  width: 100%;
+  margin-top: 50px;
+  height: 550px;
+  background-image: url("../images/wide_pic.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .navbar-brand {
-	font-family: "Montserrat";
+  font-family: Montserrat, Helvetica, sans-serif;
 }
-
-

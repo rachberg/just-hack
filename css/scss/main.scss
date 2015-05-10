@@ -1,0 +1,55 @@
+$font-stack:    Montserrat, Helvetica, sans-serif;
+
+/*using compound color scheme colors*/
+$pink: rgb(255, 48, 124);
+$purple: rgb(189, 34, 92);
+$cyan: rgb(0, 219, 187);
+$teal: rgb(0, 127, 109);
+$yellow: rgb(250, 255, 120);
+$gold: rgb(229, 219, 55);
+
+$nav-blue: rgba(51, 122, 183,0.8);
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-stack;
+	color: $gold !important;
+}
+
+.dropdown-menu > .active > a:focus {
+	background-color: $nav-blue;
+}
+
+ .nav {
+ 	height: 20px;
+ }
+
+ .nav > li > a:hover, 
+ .nav > li > a:focus {
+	color: white;
+	background-color: $nav-blue;
+ } 
+
+ .nav-pills > li.active > a:hover,
+ .nav-pills > li.active > a:focus {
+ 	background-color: $nav-blue;
+ }
+
+ .wide {
+	width: 100%;
+	margin-top:50px;
+	height: 550px;
+	background-image:url('../images/wide_pic.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: contain;
+
+}
+
+.navbar-brand {
+	font-family: $font-stack;
+}
+
+
