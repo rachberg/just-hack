@@ -62,10 +62,16 @@ h2 {
 	float: right;
 }
 
-mc_embed_signup {
+.mc_embed_signup {
 	background:#fff; 
-	// clear:left; 
+	clear:left; 
 	font:14px Helvetica,Arial,sans-serif; 
+}
+
+.mc-field-group {
+	font-family: $font-stack;
+	font-size: 1.5em;
+	color: $purple;
 }
 
  .nav {
@@ -96,6 +102,11 @@ mc_embed_signup {
 
  #navbar-fluid {
  	background-color: $transparent-white;
+ }
+
+ label {
+ 		font-weight: normal;
+
  }
 
  .text {
