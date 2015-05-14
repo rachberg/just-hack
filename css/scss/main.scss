@@ -8,33 +8,99 @@ $teal: rgb(0, 127, 109);
 $yellow: rgb(250, 255, 120);
 $gold: rgb(229, 219, 55);
 
+
+$transparent-white: rgba(255,255,255,0.8);
+$transparent-pink: rgba(255, 48, 124, 0.8);
+$transparent-purple: rgba(189, 34, 92, 0.8);
+$transparent-cyan: rgba(0, 219, 187, 0.8);
+$transparent-teal: rgba(0, 127, 109, 0.8);
+$transparent-yellow: rgba(250, 255, 120, 0.8);
+$transparent-gold: rgba(229, 219, 55, 0.8);
+
+
 $nav-blue: rgba(51, 122, 183,0.8);
 
 
-
+a {
+	color: $teal;
+}
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $font-stack;
-	color: $gold !important;
+	color: $gold;
+}
+
+h1 {
+	font-size: 5rem;
+	padding-bottom: 1rem;
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+
+.container p {
+	font-size: 2rem;
 }
 
 .dropdown-menu > .active > a:focus {
-	background-color: $nav-blue;
+	background-color: $teal;
+}
+
+// .float-center {
+// 	display: block;
+// 	margin: 0 auto;
+// }
+
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+mc_embed_signup {
+	background:#fff; 
+	// clear:left; 
+	font:14px Helvetica,Arial,sans-serif; 
 }
 
  .nav {
  	height: 20px;
+ 	font-size: 1.5em;
+ 	font-family: $font-stack;
+ }
+
+ .navbar .navbar-collapse {
+ 	text-align: center;
+ }
+
+ .navbar .navbar-nav {
+	float: none;
+ 	display: inline-table;
  }
 
  .nav > li > a:hover, 
  .nav > li > a:focus {
 	color: white;
-	background-color: $nav-blue;
+	background-color: $transparent-teal;
  } 
 
  .nav-pills > li.active > a:hover,
  .nav-pills > li.active > a:focus {
- 	background-color: $nav-blue;
+ 	background-color: $transparent-teal;
+ }
+
+ #navbar-fluid {
+ 	background-color: $transparent-white;
+ }
+
+ .text {
+	width: 70%;
+ 	display: inline-block;
  }
 
  .wide {
@@ -51,5 +117,8 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-brand {
 	font-family: $font-stack;
 }
+
+
+
 
 

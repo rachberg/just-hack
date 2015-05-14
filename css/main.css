@@ -1,26 +1,76 @@
 /*using compound color scheme colors*/
+a {
+  color: #007f6d;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: Montserrat, Helvetica, sans-serif;
-  color: #e5db37 !important;
+  color: #e5db37;
+}
+
+h1 {
+  font-size: 5rem;
+  padding-bottom: 1rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.container p {
+  font-size: 2rem;
 }
 
 .dropdown-menu > .active > a:focus {
-  background-color: rgba(51, 122, 183, 0.8);
+  background-color: #007f6d;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+mc_embed_signup {
+  background: #fff;
+  font: 14px Helvetica,Arial,sans-serif;
 }
 
 .nav {
   height: 20px;
+  font-size: 1.5em;
+  font-family: Montserrat, Helvetica, sans-serif;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar .navbar-nav {
+  float: none;
+  display: inline-table;
 }
 
 .nav > li > a:hover,
 .nav > li > a:focus {
   color: white;
-  background-color: rgba(51, 122, 183, 0.8);
+  background-color: rgba(0, 127, 109, 0.8);
 }
 
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  background-color: rgba(51, 122, 183, 0.8);
+  background-color: rgba(0, 127, 109, 0.8);
+}
+
+#navbar-fluid {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.text {
+  width: 70%;
+  display: inline-block;
 }
 
 .wide {
