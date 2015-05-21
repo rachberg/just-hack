@@ -93,11 +93,33 @@ h5 {
 	color: $purple;
 }
 
+ #mc-embedded-subscribe {
+     //width: 100%;
+     margin:auto;
+     display:block;
+ }
+ #mce-EMAIL {
+     //width: 40%;
+ }
+
+ #mce-NAME {
+ //    width: 40%;
+ }
  .nav {
  	height: 20px;
  	font-size: 1.5em;
  	font-family: $font-stack;
  }
+
+ .nav > li > a:hover, 
+ .nav > li > a:focus {
+	color: white;
+	background-color: $transparent-teal;
+ } 
+
+.navbar-brand {
+	font-family: $font-stack;
+}
 
  .navbar .navbar-collapse {
  	text-align: center;
@@ -107,12 +129,6 @@ h5 {
 	float: none;
  	display: inline-table;
  }
-
- .nav > li > a:hover, 
- .nav > li > a:focus {
-	color: white;
-	background-color: $transparent-teal;
- } 
 
  .nav-pills > li.active > a:hover,
  .nav-pills > li.active > a:focus {
@@ -143,10 +159,6 @@ h5 {
 	background-repeat:no-repeat;
 	background-size: contain;
 
-}
-
-.navbar-brand {
-	font-family: $font-stack;
 }
 
 

@@ -63,9 +63,24 @@ h5 {
   color: #bd225c;
 }
 
+#mc-embedded-subscribe {
+  margin: auto;
+  display: block;
+}
+
 .nav {
   height: 20px;
   font-size: 1.5em;
+  font-family: Montserrat, Helvetica, sans-serif;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  color: white;
+  background-color: rgba(0, 127, 109, 0.8);
+}
+
+.navbar-brand {
   font-family: Montserrat, Helvetica, sans-serif;
 }
 
@@ -76,12 +91,6 @@ h5 {
 .navbar .navbar-nav {
   float: none;
   display: inline-table;
-}
-
-.nav > li > a:hover,
-.nav > li > a:focus {
-  color: white;
-  background-color: rgba(0, 127, 109, 0.8);
 }
 
 .nav-pills > li.active > a:hover,
@@ -111,8 +120,4 @@ label {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-}
-
-.navbar-brand {
-  font-family: Montserrat, Helvetica, sans-serif;
 }
