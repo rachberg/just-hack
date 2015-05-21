@@ -25,18 +25,36 @@ a {
 	color: $teal;
 }
 
+a:hover {
+	color: $cyan;
+	text-decoration: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: $font-stack;
-	color: $gold;
 }
 
 h1 {
 	font-size: 5rem;
 	padding-bottom: 1rem;
+	color: $gold;
 }
 
 h2 {
 	font-size: 3rem;
+	color: $pink;
+}
+
+h3 {
+	color: $purple;
+}
+
+h4 {
+	color: $cyan;
+}
+
+h5 {
+	color: $teal;
 }
 
 
@@ -62,10 +80,17 @@ h2 {
 	float: right;
 }
 
-mc_embed_signup {
+
+.mc_embed_signup {
 	background:#fff; 
-	// clear:left; 
+	clear:left; 
 	font:14px Helvetica,Arial,sans-serif; 
+}
+
+.mc_embed_signup_scroll {
+	font-family: $font-stack;
+	font-size: 1.5em;
+	color: $purple;
 }
 
  .nav {
@@ -98,6 +123,11 @@ mc_embed_signup {
  	background-color: $transparent-white;
  }
 
+ label {
+ 		font-weight: normal;
+
+ }
+
  .text {
 	width: 70%;
  	display: inline-block;
@@ -107,7 +137,7 @@ mc_embed_signup {
 	width: 100%;
 	margin-top:50px;
 	height: 550px;
-	background-image:url('../images/wide_pic.jpg');
+	background-image:url('../images/logo.png');
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size: contain;
