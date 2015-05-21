@@ -44,7 +44,7 @@ h5 {
 }
 
 .float-left {
-  float: left;
+  /*	float: left; Not yet */
 }
 
 .float-right {
@@ -98,15 +98,16 @@ label {
 }
 
 .text {
-  width: 70%;
+  width: 100%;
   display: inline-block;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .wide {
   width: 100%;
   margin-top: 50px;
   height: 550px;
-  background-image: url("../images/logo.png");
+  background-image: url("../images/cover_pic.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
