@@ -3,18 +3,36 @@ a {
   color: #007f6d;
 }
 
+a:hover {
+  color: #00dbbb;
+  text-decoration: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: Montserrat, Helvetica, sans-serif;
-  color: #e5db37;
 }
 
 h1 {
   font-size: 5rem;
   padding-bottom: 1rem;
+  color: #e5db37;
 }
 
 h2 {
   font-size: 3rem;
+  color: #ff307c;
+}
+
+h3 {
+  color: #bd225c;
+}
+
+h4 {
+  color: #00dbbb;
+}
+
+h5 {
+  color: #007f6d;
 }
 
 .container p {
@@ -39,7 +57,7 @@ h2 {
   font: 14px Helvetica,Arial,sans-serif;
 }
 
-.mc-field-group {
+.mc_embed_signup_scroll {
   font-family: Montserrat, Helvetica, sans-serif;
   font-size: 1.5em;
   color: #bd225c;
