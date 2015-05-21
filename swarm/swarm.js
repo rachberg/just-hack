@@ -18,8 +18,8 @@ var colors = ["rgb(255, 48, 124)",
 //       .interpolate(interpolateLab)
 //
 var color = d3.scale.linear()
-        .domain([0,1./3, 2./3])
-        .range(colorbrewer.RdYlBu[3])
+        .domain([0,1./6, 2./6, 3./6, 4./6, 5./6])
+        .range(colorbrewer.RdYlBu[6])
         //.interpolate(d3.interpolateHcl)
 
 
@@ -75,12 +75,12 @@ var w = window.innerWidth,
         .range([0, w]),
     y = d3.scale.linear()
         .domain([0, 1])
-        .range([0, h]),
-    quadtree = d3.geom.quadtree()
-                 .extent([[-1, -1], [w + 1, h + 1]])
-                 .x(function (d) { return d.xloc})
-                 .y(function (d) { return d.yloc})
-                 (data)
+        .range([0, h])
+//    quadtree = d3.geom.quadtree()
+//                 .extent([[-1, -1], [w + 1, h + 1]])
+//                 .x(function (d) { return d.xloc})
+//                 .y(function (d) { return d.yloc})
+//                 (data)
 
     var latest = performance.now()
     last = latest,
