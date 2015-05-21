@@ -8,6 +8,26 @@ a:hover {
   text-decoration: none;
 }
 
+.btn-primary {
+  background-color: #ff307c;
+  border-style: solid;
+  border-color: #bd225c;
+}
+
+.btn-primary:hover {
+  background-color: #bd225c;
+  border-style: solid;
+  border-color: #bd225c;
+}
+
+.clear {
+  padding-top: 5rem;
+}
+
+form {
+  text-align: center;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: Montserrat, Helvetica, sans-serif;
 }
@@ -35,12 +55,16 @@ h5 {
   color: #007f6d;
 }
 
+.container {
+  margin-bottom: 65vh;
+}
+
 .container p {
   font-size: 2rem;
 }
 
 .dropdown-menu > .active > a:focus {
-  background-color: #007f6d;
+  background-color: #00dbbb;
 }
 
 .float-left {
@@ -68,6 +92,14 @@ h5 {
   display: block;
 }
 
+#mce-EMAIL {
+  width: 80%;
+}
+
+#mce-NAME {
+  width: 80%;
+}
+
 .nav {
   height: 20px;
   font-size: 1.5em;
@@ -77,7 +109,7 @@ h5 {
 .nav > li > a:hover,
 .nav > li > a:focus {
   color: white;
-  background-color: rgba(0, 127, 109, 0.8);
+  background-color: rgba(0, 219, 187, 0.8);
 }
 
 .navbar-brand {
@@ -95,7 +127,7 @@ h5 {
 
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  background-color: rgba(0, 127, 109, 0.8);
+  background-color: rgba(0, 219, 187, 0.8);
 }
 
 #navbar-fluid {
@@ -115,7 +147,7 @@ label {
 .wide {
   width: 100%;
   margin-top: 50px;
-  height: 550px;
+  height: 91vh;
   background-image: url("../images/cover_pic.png");
   background-position: center;
   background-repeat: no-repeat;
