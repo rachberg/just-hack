@@ -1,5 +1,9 @@
+/*FONTS*/
 $font-stack:    Montserrat, Helvetica, sans-serif;
+$script-font-stack: LustScript, SailScript, cursive;
+$caps-font-stack: NexaLight, Helvetica, sans-serif;
 
+/*COLORS*/
 /*using compound color scheme colors*/
 $pink: rgb(255, 48, 124);
 $purple: rgb(189, 34, 92);
@@ -21,8 +25,10 @@ $transparent-gold: rgba(229, 219, 55, 0.8);
 $nav-blue: rgba(51, 122, 183,0.8);
 
 
+/*STYLING*/
 a {
 	color: $teal;
+	font-weight: bold;
 }
 
 a:hover {
@@ -31,19 +37,34 @@ a:hover {
 }
 
 .btn-primary {
-	background-color: $pink;
+	background-color: $teal;
 	border-style: solid;
-	border-color: $purple;
+	border-color: $teal;
 }
 
 .btn-primary:hover {
-	background-color: $purple;
+	background-color: $cyan;
 	border-style: solid;
-	border-color: $purple;
+	border-color: $teal;
 }
 
 .clear {
 	padding-top: 5rem;
+}
+
+@font-face {
+    font-family: LustScript;
+    src: url("/Developer/just-hack/fonts/LustScript.otf");
+}
+
+@font-face {
+    font-family: NexaLight;
+    src: url("/Developer/just-hack/fonts/NexaLight.otf");
+}
+
+@font-face {
+    font-family: SailScript;
+    src: url("/Developer/just-hack/fonts/Sail-Regular.otf");
 }
 
 form {
@@ -51,30 +72,34 @@ form {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: $font-stack;
+	font-family: $script-font-stack;
 }
 
 h1 {
-	font-size: 5rem;
+	font-size: 7rem;
 	padding-bottom: 1rem;
-	color: $gold;
+	color: $pink;
 }
 
 h2 {
-	font-size: 3rem;
-	color: $pink;
+	font-size: 5rem;
+	color: $gold;
 }
 
 h3 {
 	color: $purple;
+	font-size: 3rem;
 }
 
 h4 {
-	color: $cyan;
+	color: $teal;
+	font-family: $caps-font-stack;
+	text-transform: uppercase;
+	font-size: 2rem;
 }
 
 h5 {
-	color: $teal;
+	color: $cyan;
 }
 
 .container {
@@ -130,7 +155,8 @@ h5 {
  .nav {
  	height: 20px;
  	font-size: 1.5em;
- 	font-family: $font-stack;
+ 	font-family: $caps-font-stack;
+ 	text-transform: uppercase;
  }
 
  .nav > li > a:hover, 
@@ -166,6 +192,14 @@ h5 {
 
  }
 
+ strong {
+ 	color: $cyan;
+ }
+
+ .subtitle {
+ 	text-align: center;
+ }
+
  .text {
 	width: 100%;
  	display: inline-block;
@@ -175,7 +209,7 @@ h5 {
  .wide {
 	width: 100%;
 	margin-top:50px;
-	height: 91vh;
+	height: 93vh;
 	background-image:url('../images/cover_pic.png');
 	background-position:center;
 	background-repeat:no-repeat;

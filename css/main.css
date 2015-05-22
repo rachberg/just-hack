@@ -1,6 +1,10 @@
+/*FONTS*/
+/*COLORS*/
 /*using compound color scheme colors*/
+/*STYLING*/
 a {
   color: #007f6d;
+  font-weight: bold;
 }
 
 a:hover {
@@ -9,50 +13,66 @@ a:hover {
 }
 
 .btn-primary {
-  background-color: #ff307c;
+  background-color: #007f6d;
   border-style: solid;
-  border-color: #bd225c;
+  border-color: #007f6d;
 }
 
 .btn-primary:hover {
-  background-color: #bd225c;
+  background-color: #00dbbb;
   border-style: solid;
-  border-color: #bd225c;
+  border-color: #007f6d;
 }
 
 .clear {
   padding-top: 5rem;
 }
 
+@font-face {
+  font-family: LustScript;
+  src: url("/Developer/just-hack/fonts/LustScript.otf");
+}
+@font-face {
+  font-family: NexaLight;
+  src: url("/Developer/just-hack/fonts/NexaLight.otf");
+}
+@font-face {
+  font-family: SailScript;
+  src: url("/Developer/just-hack/fonts/Sail-Regular.otf");
+}
 form {
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Montserrat, Helvetica, sans-serif;
+  font-family: LustScript, SailScript, cursive;
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 7rem;
   padding-bottom: 1rem;
-  color: #e5db37;
+  color: #ff307c;
 }
 
 h2 {
-  font-size: 3rem;
-  color: #ff307c;
+  font-size: 5rem;
+  color: #e5db37;
 }
 
 h3 {
   color: #bd225c;
+  font-size: 3rem;
 }
 
 h4 {
-  color: #00dbbb;
+  color: #007f6d;
+  font-family: NexaLight, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
 }
 
 h5 {
-  color: #007f6d;
+  color: #00dbbb;
 }
 
 .container {
@@ -103,7 +123,8 @@ h5 {
 .nav {
   height: 20px;
   font-size: 1.5em;
-  font-family: Montserrat, Helvetica, sans-serif;
+  font-family: NexaLight, Helvetica, sans-serif;
+  text-transform: uppercase;
 }
 
 .nav > li > a:hover,
@@ -138,6 +159,14 @@ label {
   font-weight: normal;
 }
 
+strong {
+  color: #00dbbb;
+}
+
+.subtitle {
+  text-align: center;
+}
+
 .text {
   width: 100%;
   display: inline-block;
@@ -147,7 +176,7 @@ label {
 .wide {
   width: 100%;
   margin-top: 50px;
-  height: 91vh;
+  height: 93vh;
   background-image: url("../images/cover_pic.png");
   background-position: center;
   background-repeat: no-repeat;
