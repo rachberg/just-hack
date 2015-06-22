@@ -3,12 +3,11 @@
 /*using compound color scheme colors*/
 /*STYLING*/
 a {
-  color: #007f6d;
-  font-weight: bold;
+  color: #2474a1;
 }
 
 a:hover {
-  color: #00dbbb;
+  color: #2474a1;
   text-decoration: none;
 }
 
@@ -23,6 +22,10 @@ a:hover {
   background-color: #D75A49;
   border-style: solid;
   border-color: #D75A49;
+}
+
+#cover {
+  height: 60vh;
 }
 
 #date {
@@ -55,7 +58,7 @@ form {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: AvenirLight, Helvetica, sans-serif;
-  color: white;
+  color: black;
 }
 
 h1 {
@@ -63,7 +66,6 @@ h1 {
   letter-spacing: 3px;
   font-size: 6rem;
   padding-bottom: 1rem;
-  color: white;
 }
 
 h2 {
@@ -143,13 +145,16 @@ label {
 .nav {
   height: 20px;
   font-size: 1.5em;
-  font-family: NexaLight, Helvetica, sans-serif;
-  text-transform: uppercase;
+  font-family: AvenirLight, Helvetica, sans-serif;
+}
+
+.nav a {
+  color: black;
 }
 
 .nav > li > a:hover,
 .nav > li > a:focus {
-  color: white;
+  color: black;
   background-color: rgba(0, 219, 187, 0.8);
 }
 
@@ -164,6 +169,7 @@ label {
 .navbar .navbar-nav {
   float: none;
   display: inline-table;
+  margin-bottom: 0;
 }
 
 .nav-pills > li.active > a:hover,
@@ -188,6 +194,10 @@ label {
   margin-top: 10vh;
 }
 
+.subtitle h3 {
+  text-transform: uppercase;
+}
+
 .text {
   width: 100%;
   display: inline-block;
@@ -196,7 +206,6 @@ label {
 .wide {
   width: 100%;
   height: 100%;
-  background-image: url("../images/coming-soon-background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
