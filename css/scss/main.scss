@@ -1,5 +1,5 @@
 /*FONTS*/
-$font-stack:    Montserrat, Helvetica, sans-serif;
+$font-stack:    Avenir, Helvetica, sans-serif;
 $script-font-stack: LustScript, SailScript, cursive;
 $caps-font-stack: NexaLight, Helvetica, sans-serif;
 
@@ -12,6 +12,8 @@ $teal: rgb(0, 127, 109);
 $yellow: rgb(250, 255, 120);
 $gold: rgb(229, 219, 55);
 $white: rgb(255,255,255);
+$coral: #ef6552;
+$blue: #2474a1;
 
 
 $transparent-white: rgba(255,255,255,0.8);
@@ -38,13 +40,15 @@ a:hover {
 }
 
 .btn-primary {
-	background-color: $teal;
+	background-color: $coral;
 	border-style: solid;
-	border-color: $teal;
+	border-color: $coral;
+	border-radius: 0px;
+	// box-shadow: 3px 3px 5px 6px #000;
 }
 
 .btn-primary:hover {
-	background-color: $cyan;
+	background-color: $teal;
 	border-style: solid;
 	border-color: $teal;
 }
@@ -73,34 +77,37 @@ form {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: $script-font-stack;
+	font-family: $font-stack;
+	color: $white;
 }
 
 h1 {
-	font-size: 7rem;
+	font-family: $script-font-stack;
+	letter-spacing: 3px;
+	font-size: 6rem;
 	padding-bottom: 1rem;
 	color: $white;
 }
 
 h2 {
 	font-size: 5rem;
-	color: $gold;
+	// color: $gold;
 }
 
 h3 {
-	color: $purple;
+	// color: $purple;
 	font-size: 3rem;
 }
 
 h4 {
-	color: $teal;
+	// color: $teal;
 	font-family: $caps-font-stack;
 	text-transform: uppercase;
 	font-size: 2rem;
 }
 
 h5 {
-	color: $cyan;
+	// color: $cyan;
 }
 
 .container {
@@ -127,6 +134,13 @@ h5 {
 
 .float-right {
 	float: right;
+}
+form .row {
+	padding-top:2vh;
+}
+.form-control {
+	box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.5);
+	border-radius: 0px;
 }
 
 .mc_embed_signup {
