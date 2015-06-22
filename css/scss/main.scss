@@ -11,6 +11,7 @@ $cyan: rgb(0, 219, 187);
 $teal: rgb(0, 127, 109);
 $yellow: rgb(250, 255, 120);
 $gold: rgb(229, 219, 55);
+$white: rgb(255,255,255);
 
 
 $transparent-white: rgba(255,255,255,0.8);
@@ -78,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-size: 7rem;
 	padding-bottom: 1rem;
-	color: $pink;
+	color: $white;
 }
 
 h2 {
@@ -146,11 +147,11 @@ h5 {
      display:block;
  }
  #mce-EMAIL {
-     width: 80%;
+     width: 100%;
  }
 
  #mce-NAME {
- 	width: 80%;
+ 	width: 100%;
  }
  .nav {
  	height: 20px;
@@ -198,21 +199,26 @@ h5 {
 
  .subtitle {
  	text-align: center;
+ 	margin-top: 10vh;
  }
 
  .text {
 	width: 100%;
  	display: inline-block;
-    background-color:rgba(255,255,255,0.8);
+    // background-color:$transparent-white;
  }
 
  .wide {
 	width: 100%;
-	margin-top:50px;
-	height: 93vh;
-	background-image:url('../images/cover_pic.png');
+	// margin-top:50px;
+	//height: 60vh;
+	height: 100%;
+	background-image:url('../images/triangles.png');
 	background-position:center;
 	background-repeat:no-repeat;
-	background-size: contain;
-
+	background-size: cover;
+	position: fixed;
+    left:0px;
+    top:0px;
+    z-index:-1;
 }
