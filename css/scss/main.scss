@@ -167,6 +167,9 @@ label {
 	color:black;
 }
 
+.left-column {
+    padding-right:2rem;
+}
 #mailing-list {
     display: block;
     margin: auto;
@@ -189,11 +192,11 @@ label {
      display:block;
  }
  #mce-EMAIL {
-     width: 60%;
+     // width: 60%;
  }
 
  #mce-NAME {
- 	width: 60%;
+ 	// width: 60%;
  }
  .nav {
  	height: 20px;
@@ -264,9 +267,7 @@ label {
  #page-2 p {
  	font-family: $font-stack;
  	line-height: 3rem;
- 	text-align: justify;
- 	padding-right: 20px;
- }
+ 	text-align: justify; }
 
 #page-3 h4 {
 	font-family: $bold-font-stack;
@@ -277,8 +278,7 @@ label {
  	font-family: $font-stack;
  	line-height: 3rem;
  	text-align: justify;
- 	padding-right: 20px;
- }
+}
 
  #sign-up {
  	padding-top: 6vh;

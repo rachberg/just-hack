@@ -130,6 +130,10 @@ label {
   color: black;
 }
 
+.left-column {
+  padding-right: 2rem;
+}
+
 #mailing-list {
   display: block;
   margin: auto;
@@ -149,14 +153,6 @@ label {
 #mc-embedded-subscribe {
   margin: auto;
   display: block;
-}
-
-#mce-EMAIL {
-  width: 60%;
-}
-
-#mce-NAME {
-  width: 60%;
 }
 
 .nav {
@@ -225,7 +221,6 @@ label {
   font-family: AvenirLight, Helvetica, sans-serif;
   line-height: 3rem;
   text-align: justify;
-  padding-right: 20px;
 }
 
 #page-3 h4 {
@@ -237,7 +232,6 @@ label {
   font-family: AvenirLight, Helvetica, sans-serif;
   line-height: 3rem;
   text-align: justify;
-  padding-right: 20px;
 }
 
 #sign-up {
