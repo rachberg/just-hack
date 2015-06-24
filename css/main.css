@@ -9,12 +9,8 @@ a {
 }
 
 a:hover {
-  color: #ef6552;
+  color: #2474a1;
   text-decoration: none;
-}
-
-.bold {
-  font-family: AvenirMedium, Helvetica, sans-serif;
 }
 
 .btn-primary {
