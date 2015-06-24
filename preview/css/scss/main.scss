@@ -1,0 +1,349 @@
+/*FONTS*/
+$font-stack:    AvenirLight, Helvetica, sans-serif;
+$bold-font-stack: AvenirMedium, Helvetica, sans-serif;
+$script-font-stack: LustScript, SailScript, cursive;
+$caps-font-stack: NexaLight, Helvetica, sans-serif;
+
+/*COLORS*/
+/*using compound color scheme colors*/
+$pink: rgb(255, 48, 124);
+$purple: rgb(189, 34, 92);
+$cyan: rgb(0, 219, 187);
+$teal: rgb(0, 127, 109);
+$yellow: rgb(250, 255, 120);
+$gold: rgb(229, 219, 55);
+$coral: #ef6552;
+$coral-highlight: #D75A49;
+$blue: #2474a1;
+
+
+$transparent-white: rgba(255,255,255,0.8);
+$transparent-pink: rgba(255, 48, 124, 0.8);
+$transparent-purple: rgba(189, 34, 92, 0.8);
+$transparent-cyan: rgba(0, 219, 187, 0.8);
+$transparent-teal: rgba(0, 127, 109, 0.8);
+$transparent-yellow: rgba(250, 255, 120, 0.8);
+$transparent-gold: rgba(229, 219, 55, 0.8);
+
+
+$nav-blue: rgba(51, 122, 183,0.8);
+
+
+/*STYLING*/
+a {
+	color: $blue;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: $blue;
+	text-decoration: none;
+}
+
+.bold {
+	font-family: $bold-font-stack;
+}
+
+.btn-primary {
+	background-color: $coral;
+	border-style: solid;
+	border-color: $coral;
+	border-radius: 0px;
+	// box-shadow: 3px 3px 5px 6px #000;
+}
+
+.btn-primary:hover {
+	background-color: $coral-highlight;
+	border-style: solid;
+	border-color: $coral-highlight;
+}
+
+.clear {
+	//padding-top: 5rem;
+}
+
+.container li {
+    font-family: $font-stack;
+    line-height: 3rem;
+    font-size: 1.5  rem;
+}
+
+#date {
+	font-family: $bold-font-stack;
+}
+
+@font-face {
+    font-family: AvenirLight;
+    src: url("../fonts/AvenirLight.otf");
+}
+
+@font-face {
+    font-family: AvenirMedium;
+    src: url("../fonts/AvenirMedium.otf");
+}
+
+@font-face {
+    font-family: LustScript;
+    src: url("../fonts/LustScript.otf");
+}
+
+@font-face {
+    font-family: NexaLight;
+    src: url("../fonts/NexaLight.otf");
+}
+
+@font-face {
+    font-family: SailScript;
+    src: url("../fonts/Sail-Regular.otf");
+}
+
+form {
+	text-align: center;
+}
+
+.further-reading {
+    padding-left: 2.75vw;
+    font-size: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-stack;
+	color: black;
+}
+
+h1 {
+	font-family: $script-font-stack;
+	letter-spacing: 3px;
+	font-size: 6rem;
+	padding-bottom: 1rem;
+}
+
+h2 {
+	font-size: 5rem;
+	font-family: $bold-font-stack;
+    padding-top: 10vh;
+}
+
+h3 {
+    font-family: $font-stack;
+	font-size: 3rem;
+}
+
+h4 {
+	font-family: $bold-font-stack;
+	font-size: 2rem;
+}
+
+h5 {
+	font-family: $bold-font-stack;
+}
+
+.container p {
+	font-size: 2rem;
+}
+
+.dropdown-menu > .active > a:focus {
+	background-color: white;
+}
+
+.float-right {
+	float: right;
+}
+form .row {
+	padding-top: 1vh;
+	padding-bottom: 4vh;
+}
+.form-control {
+	box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.5);
+	border-radius: 0px;
+}
+
+label {
+	float:right;
+	font-size: 2rem;
+	font-family: $font-stack;
+	color:black;
+}
+
+.left-column {
+    padding-right:2rem;
+}
+#mailing-list {
+    display: block;
+    margin: auto;
+}
+
+.mc_embed_signup {
+	background:#fff; 
+	clear:left; 
+	font:14px Helvetica,Arial,sans-serif; 
+}
+
+.mc_embed_signup_scroll {
+	font-family: $font-stack;
+	font-size: 1.5em;
+}
+
+ #mc-embedded-subscribe {
+     //width: 100%;
+     margin:auto;
+     display:block;
+ }
+ #mce-EMAIL {
+     // width: 60%;
+ }
+
+ #mce-NAME {
+ 	// width: 60%;
+ }
+ .nav {
+ 	height: 20px;
+ 	font-size: 1.5em;
+ 	font-family: $font-stack;
+ 	// font-family: $caps-font-stack;
+ 	// text-transform: uppercase;
+ }
+
+ .nav a {
+ 	color: black;
+ }
+
+ .nav > li > a:hover, 
+ .nav > li > a:focus {
+	color: black;
+	background-color: white;
+ } 
+
+.navbar-brand {
+	font-family: $font-stack;
+}
+
+ .navbar .navbar-collapse {
+ 	text-align: center;
+ }
+
+ .navbar .navbar-nav {
+	float: none;
+ 	display: inline-table;
+ 	margin-bottom: 0;
+
+ }
+
+ .nav-pills > li.active > a:hover,
+ .nav-pills > li.active > a:focus {
+ 	background-color: $transparent-cyan;
+ }
+
+ #navbar-fluid {
+ 	background-color: $transparent-white;
+ }
+
+ label {
+ 		font-weight: normal;
+
+ }
+
+ #page-2, #page-3 {
+ 	letter-spacing: 1px;
+ 	background-color: white;
+ }
+
+ #page-2 h2 {
+ 	font-family: $bold-font-stack;
+ 	color: $coral;
+ }
+
+ #page-2 h3 {
+ 	font-family: $bold-font-stack;
+ 	color: $blue;
+ 	font-size: 2rem;
+ 	text-align: center;
+ 	line-height: 3rem;
+ 	padding-left: 20%;
+ 	padding-right: 20%;
+ }
+
+#page-2 p {
+ 	font-family: $font-stack;
+ 	line-height: 3rem;
+ 	text-align: justify; }
+
+#page-3 {
+     background-color: white;
+     display:block;
+ }
+
+#page-3::after {
+    content: "";
+    background: url('../images/triangles.png');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#page-3 h4 {
+	font-family: $bold-font-stack;
+	padding-top: 2vh;
+}
+
+#page-3 p {
+ 	font-family: $font-stack;
+ 	line-height: 3rem;
+ 	text-align: justify;
+}
+
+ #sign-up {
+ 	padding-top: 6vh;
+ }
+
+ strong {
+    font-family: $bold-font-stack;
+ }
+
+ .subtitle {
+ 	text-align: center;
+ 	margin-top: 10vh;
+ }
+
+ .subtitle h3 {
+	text-transform: uppercase;
+ }
+
+ .text {
+	width: 100%;
+ 	display: inline-block;
+    // background-color:$transparent-white;
+ }
+
+//Added for partil
+html,body{ 
+    margin:0;
+    width:100%;
+    height:100%;
+    background:#111;
+}
+canvas{
+    display:block;
+    vertical-align:bottom;
+}
+
+#particles-js{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    z-index:-1;
+    position: fixed;
+    left:0px;
+    top:0px;
+}
+
