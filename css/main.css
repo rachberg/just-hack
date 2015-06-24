@@ -3,13 +3,13 @@
 /*using compound color scheme colors*/
 /*STYLING*/
 a {
-  color: #2474a1;
-  font-weight: bold;
+  color: black;
+  font-family: AvenirMedium, Helvetica, sans-serif;
   text-decoration: none;
 }
 
 a:hover {
-  color: #2474a1;
+  color: #ef6552;
   text-decoration: none;
 }
 

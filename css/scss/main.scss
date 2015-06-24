@@ -31,14 +31,14 @@ $nav-blue: rgba(51, 122, 183,0.8);
 
 /*STYLING*/
 a {
-	color: $blue;
-	font-weight: bold;
+	color: black;
+	font-family: $bold-font-stack;
 	text-decoration: none;
 
 }
 
 a:hover {
-	color: $blue;
+	color: $coral;
 	text-decoration: none;
 }
 
