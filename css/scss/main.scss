@@ -247,6 +247,7 @@ label {
 
  #page-2, #page-3 {
  	letter-spacing: 1px;
+ 	background-color: white;
  }
 
  #page-2 h2 {
@@ -264,10 +265,26 @@ label {
  	padding-right: 20%;
  }
 
- #page-2 p {
+#page-2 p {
  	font-family: $font-stack;
  	line-height: 3rem;
  	text-align: justify; }
+
+#page-3 {
+     background-color: white;
+ }
+
+#page-3::after {
+    content: "";
+    background: url('../images/triangles.png');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
 
 #page-3 h4 {
 	font-family: $bold-font-stack;

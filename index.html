@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +12,7 @@
 
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
-<script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+<script src="js/jquery.stickystack.min.js"></script>
 
 <style type="text/css">
   .chart {
@@ -26,8 +27,8 @@
 </head>
 
 <body>
-
-<div id="page-1">
+<div class="main-content-wrapper">
+<section id="page-1" >
   <div class="wide"> </div>
 
   <div class="container">
@@ -59,9 +60,9 @@
       <h3>Montréal, Quebec</h3>
 <!--  <h3>Check back <span id="date">June 24</span> for the launch of JustHack</h3>-->
   </div><!-- subtitle-->
- </div><!-- page 1-->
+ </section><!-- page 1-->
 
-<div id="page-2">
+<section id="page-2">
   <div class="container">
     <h2 id="about">What is JustHack?</h2>
 
@@ -108,9 +109,9 @@
     </div> <!-- row-->
 </div><!-- container-->
 
-</div><!-- page-2-->
+</section><!-- page-2-->
 
-<div id="page-3">
+<section id="page-3">
   <div class="container">
   <h2 id="contact">Contact Us</h2>
   <p>If you have any questions or requests, please contact us at <a href="mailto:justhack.mtl@gmail.com"> justhack.mtl@gmail.com</a>.</p>
@@ -141,12 +142,16 @@
   <h2 id="sponsor">Sponsors</h2>
   <p>Sponsors for JustHack will be announced closer to the date of the event. If you or your company are interested in sponsoring us, please <a href="mailto:justhack.mtl@gmail.com">send us an email</a>.</p>
   </div><!-- container-->
-</div><!-- page-3-->
+</section><!-- page-3-->
+</div>
 
 
-<script src="js/skrollr.min.js"></script>
 <script type="text/javascript">
-  var s = skrollr.init();
+    $(window).load(function() {
+        $('section').css('min-height', $(window).height());
+        $('#main-content-wrapper').stickyStack();
+    });
+
 </script>
 </body>
 </html>
