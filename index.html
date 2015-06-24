@@ -139,6 +139,10 @@
     $(window).load(function() {
         $('section').css('min-height', $(window).height());
         $('#main-content-wrapper').stickyStack();
+        isMobile = (/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera);
+        if(!isMobile && $(window).width() > 767) {
+            startParticles();
+        }
     });
 
 </script>
