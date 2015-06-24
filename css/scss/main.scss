@@ -38,12 +38,8 @@ a {
 }
 
 a:hover {
-	color: $coral;
+	color: $blue;
 	text-decoration: none;
-}
-
-.bold {
-	font-family: $bold-font-stack;
 }
 
 .btn-primary {
@@ -172,7 +168,7 @@ label {
 	color:black;
 }
 
-.left-column {
+#left-column {
     padding-right:2rem;
 }
 #mailing-list {
@@ -217,8 +213,9 @@ label {
 
  .nav > li > a:hover, 
  .nav > li > a:focus {
-	color: black;
-	background-color: white;
+	color: white;
+    background-color: transparent;
+	// background-color: white;
  } 
 
 .navbar-brand {
@@ -277,6 +274,7 @@ label {
  	line-height: 3rem;
  	padding-left: 20%;
  	padding-right: 20%;
+    padding-top: 3rem;
  }
 
 #page-2 p {
@@ -310,6 +308,10 @@ label {
  	font-family: $font-stack;
  	line-height: 3rem;
  	text-align: justify;
+}
+
+#right-column {
+    padding-left: 2rem;
 }
 
  #sign-up {

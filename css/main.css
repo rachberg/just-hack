@@ -9,12 +9,8 @@ a {
 }
 
 a:hover {
-  color: #ef6552;
+  color: #2474a1;
   text-decoration: none;
-}
-
-.bold {
-  font-family: AvenirMedium, Helvetica, sans-serif;
 }
 
 .btn-primary {
@@ -134,7 +130,7 @@ label {
   color: black;
 }
 
-.left-column {
+#left-column {
   padding-right: 2rem;
 }
 
@@ -171,8 +167,8 @@ label {
 
 .nav > li > a:hover,
 .nav > li > a:focus {
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: transparent;
 }
 
 .navbar-brand {
@@ -224,6 +220,7 @@ label {
   line-height: 3rem;
   padding-left: 20%;
   padding-right: 20%;
+  padding-top: 3rem;
 }
 
 #page-2 p {
@@ -258,6 +255,10 @@ label {
   font-family: AvenirLight, Helvetica, sans-serif;
   line-height: 3rem;
   text-align: justify;
+}
+
+#right-column {
+  padding-left: 2rem;
 }
 
 #sign-up {
