@@ -44,15 +44,15 @@ a:hover {
 }
 @font-face {
   font-family: LustScript;
-  src: url("/fonts/LustScript.otf");
+  src: url("../fonts/LustScript.otf");
 }
 @font-face {
   font-family: NexaLight;
-  src: url("/fonts/NexaLight.otf");
+  src: url("../fonts/NexaLight.otf");
 }
 @font-face {
   font-family: SailScript;
-  src: url("/fonts/Sail-Regular.otf");
+  src: url("../fonts/Sail-Regular.otf");
 }
 form {
   text-align: center;
