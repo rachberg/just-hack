@@ -103,6 +103,11 @@ form {
 	text-align: center;
 }
 
+.form-inline .form-control {
+    width: 80%;
+}
+
+
 .further-reading {
     padding-left: 2.75vw;
     font-size: 1.5rem;
@@ -229,6 +234,11 @@ label {
  	display: inline-table;
  	margin-bottom: 0;
 
+ }
+
+ .navbar-nav > li {
+    // margin-right: 10%;
+    // margin-left: 10%;
  }
 
  .nav-pills > li.active > a:hover,
