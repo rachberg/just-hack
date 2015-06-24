@@ -3,18 +3,14 @@
 /*using compound color scheme colors*/
 /*STYLING*/
 a {
-  color: #2474a1;
-  font-weight: bold;
+  color: black;
+  font-family: AvenirMedium, Helvetica, sans-serif;
   text-decoration: none;
 }
 
 a:hover {
   color: #2474a1;
   text-decoration: none;
-}
-
-.bold {
-  font-family: AvenirMedium, Helvetica, sans-serif;
 }
 
 .btn-primary {
@@ -64,6 +60,10 @@ form {
   text-align: center;
 }
 
+.form-inline .form-control {
+  width: 80%;
+}
+
 .further-reading {
   padding-left: 2.75vw;
   font-size: 1.5rem;
@@ -84,7 +84,7 @@ h1 {
 h2 {
   font-size: 5rem;
   font-family: AvenirMedium, Helvetica, sans-serif;
-  padding-top: 10vh;
+  padding-top: 5vh;
 }
 
 h3 {
@@ -130,7 +130,7 @@ label {
   color: black;
 }
 
-.left-column {
+#left-column {
   padding-right: 2rem;
 }
 
@@ -167,8 +167,8 @@ label {
 
 .nav > li > a:hover,
 .nav > li > a:focus {
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: transparent;
 }
 
 .navbar-brand {
@@ -198,6 +198,10 @@ label {
   font-weight: normal;
 }
 
+#page-1, #page-2, #page-3 {
+  padding-bottom: 5vh;
+}
+
 #page-2, #page-3 {
   letter-spacing: 1px;
   background-color: white;
@@ -216,6 +220,7 @@ label {
   line-height: 3rem;
   padding-left: 20%;
   padding-right: 20%;
+  padding-top: 3rem;
 }
 
 #page-2 p {
@@ -252,6 +257,10 @@ label {
   text-align: justify;
 }
 
+#right-column {
+  padding-left: 2rem;
+}
+
 #sign-up {
   padding-top: 6vh;
 }
@@ -270,6 +279,7 @@ strong {
 }
 
 .text {
+  pointer-events: none;
   width: 100%;
   display: inline-block;
 }

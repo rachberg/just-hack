@@ -31,8 +31,8 @@ $nav-blue: rgba(51, 122, 183,0.8);
 
 /*STYLING*/
 a {
-	color: $blue;
-	font-weight: bold;
+	color: black;
+	font-family: $bold-font-stack;
 	text-decoration: none;
 
 }
@@ -40,10 +40,6 @@ a {
 a:hover {
 	color: $blue;
 	text-decoration: none;
-}
-
-.bold {
-	font-family: $bold-font-stack;
 }
 
 .btn-primary {
@@ -103,6 +99,11 @@ form {
 	text-align: center;
 }
 
+.form-inline .form-control {
+    width: 80%;
+}
+
+
 .further-reading {
     padding-left: 2.75vw;
     font-size: 1.5rem;
@@ -123,7 +124,7 @@ h1 {
 h2 {
 	font-size: 5rem;
 	font-family: $bold-font-stack;
-    padding-top: 10vh;
+    padding-top: 5vh;
 }
 
 h3 {
@@ -167,7 +168,7 @@ label {
 	color:black;
 }
 
-.left-column {
+#left-column {
     padding-right:2rem;
 }
 #mailing-list {
@@ -212,8 +213,9 @@ label {
 
  .nav > li > a:hover, 
  .nav > li > a:focus {
-	color: black;
-	background-color: white;
+	color: white;
+    background-color: transparent;
+	// background-color: white;
  } 
 
 .navbar-brand {
@@ -231,6 +233,11 @@ label {
 
  }
 
+ .navbar-nav > li {
+    // margin-right: 10%;
+    // margin-left: 10%;
+ }
+
  .nav-pills > li.active > a:hover,
  .nav-pills > li.active > a:focus {
  	background-color: $transparent-cyan;
@@ -243,6 +250,10 @@ label {
  label {
  		font-weight: normal;
 
+ }
+
+ #page-1, #page-2, #page-3 {
+    padding-bottom: 5vh;
  }
 
  #page-2, #page-3 {
@@ -263,6 +274,7 @@ label {
  	line-height: 3rem;
  	padding-left: 20%;
  	padding-right: 20%;
+    padding-top: 3rem;
  }
 
 #page-2 p {
@@ -298,6 +310,10 @@ label {
  	text-align: justify;
 }
 
+#right-column {
+    padding-left: 2rem;
+}
+
  #sign-up {
  	padding-top: 6vh;
  }
@@ -316,6 +332,7 @@ label {
  }
 
  .text {
+    pointer-events:none;
 	width: 100%;
  	display: inline-block;
     // background-color:$transparent-white;
