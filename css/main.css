@@ -278,6 +278,7 @@ strong {
 }
 
 .text {
+  pointer-events: none;
   width: 100%;
   display: inline-block;
 }
