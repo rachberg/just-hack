@@ -213,8 +213,9 @@ label {
 
  .nav > li > a:hover, 
  .nav > li > a:focus {
-	color: black;
-	background-color: white;
+	color: white;
+    background-color: transparent;
+	// background-color: white;
  } 
 
 .navbar-brand {
@@ -273,6 +274,7 @@ label {
  	line-height: 3rem;
  	padding-left: 20%;
  	padding-right: 20%;
+    padding-top: 3rem;
  }
 
 #page-2 p {
