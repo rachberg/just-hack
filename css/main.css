@@ -30,6 +30,12 @@ a:hover {
   border-color: #D75A49;
 }
 
+.container li {
+  font-family: AvenirLight, Helvetica, sans-serif;
+  line-height: 3rem;
+  font-size: 1.5  rem;
+}
+
 #date {
   font-family: AvenirMedium, Helvetica, sans-serif;
 }
@@ -58,6 +64,11 @@ form {
   text-align: center;
 }
 
+.further-reading {
+  padding-left: 2.75vw;
+  font-size: 1.5rem;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: AvenirLight, Helvetica, sans-serif;
   color: black;
@@ -73,9 +84,11 @@ h1 {
 h2 {
   font-size: 5rem;
   font-family: AvenirMedium, Helvetica, sans-serif;
+  padding-top: 10vh;
 }
 
 h3 {
+  font-family: AvenirLight, Helvetica, sans-serif;
   font-size: 3rem;
 }
 
@@ -93,11 +106,7 @@ h5 {
 }
 
 .dropdown-menu > .active > a:focus {
-  background-color: #00dbbb;
-}
-
-.float-left {
-  /*	float: left; Not yet */
+  background-color: white;
 }
 
 .float-right {
@@ -118,7 +127,16 @@ label {
   float: right;
   font-size: 2rem;
   font-family: AvenirLight, Helvetica, sans-serif;
-  color: white;
+  color: black;
+}
+
+.left-column {
+  padding-right: 2rem;
+}
+
+#mailing-list {
+  display: block;
+  margin: auto;
 }
 
 .mc_embed_signup {
@@ -137,14 +155,6 @@ label {
   display: block;
 }
 
-#mce-EMAIL {
-  width: 100%;
-}
-
-#mce-NAME {
-  width: 100%;
-}
-
 .nav {
   height: 20px;
   font-size: 1.5em;
@@ -158,7 +168,7 @@ label {
 .nav > li > a:hover,
 .nav > li > a:focus {
   color: black;
-  background-color: rgba(0, 219, 187, 0.8);
+  background-color: white;
 }
 
 .navbar-brand {
@@ -188,7 +198,7 @@ label {
   font-weight: normal;
 }
 
-#page-2 {
+#page-2, #page-3 {
   letter-spacing: 1px;
   background-color: white;
 }
@@ -212,7 +222,6 @@ label {
   font-family: AvenirLight, Helvetica, sans-serif;
   line-height: 3rem;
   text-align: justify;
-  padding-right: 20px;
 }
 
 #page-3 {
@@ -240,11 +249,14 @@ label {
   font-family: AvenirLight, Helvetica, sans-serif;
   line-height: 3rem;
   text-align: justify;
-  padding-right: 20px;
 }
 
-#stay-touch {
+#sign-up {
   padding-top: 6vh;
+}
+
+strong {
+  font-family: AvenirMedium, Helvetica, sans-serif;
 }
 
 .subtitle {
