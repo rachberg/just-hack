@@ -134,7 +134,7 @@ label {
   color: black;
 }
 
-.left-column {
+#left-column {
   padding-right: 2rem;
 }
 
@@ -258,6 +258,10 @@ label {
   font-family: AvenirLight, Helvetica, sans-serif;
   line-height: 3rem;
   text-align: justify;
+}
+
+#right-column {
+  padding-left: 2rem;
 }
 
 #sign-up {

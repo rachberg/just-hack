@@ -172,7 +172,7 @@ label {
 	color:black;
 }
 
-.left-column {
+#left-column {
     padding-right:2rem;
 }
 #mailing-list {
@@ -310,6 +310,10 @@ label {
  	font-family: $font-stack;
  	line-height: 3rem;
  	text-align: justify;
+}
+
+#right-column {
+    padding-left: 2rem;
 }
 
  #sign-up {
