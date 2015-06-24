@@ -5,6 +5,7 @@
 a {
   color: #2474a1;
   font-weight: bold;
+  text-decoration: none;
 }
 
 a:hover {
@@ -71,6 +72,7 @@ h1 {
 
 h2 {
   font-size: 5rem;
+  font-family: AvenirMedium, Helvetica, sans-serif;
 }
 
 h3 {
@@ -78,8 +80,12 @@ h3 {
 }
 
 h4 {
-  font-family: AvenirLight, Helvetica, sans-serif;
+  font-family: AvenirMedium, Helvetica, sans-serif;
   font-size: 2rem;
+}
+
+h5 {
+  font-family: AvenirMedium, Helvetica, sans-serif;
 }
 
 .container p {
@@ -202,6 +208,18 @@ label {
 }
 
 #page-2 p {
+  font-family: AvenirLight, Helvetica, sans-serif;
+  line-height: 3rem;
+  text-align: justify;
+  padding-right: 20px;
+}
+
+#page-3 h4 {
+  font-family: AvenirMedium, Helvetica, sans-serif;
+  padding-top: 2vh;
+}
+
+#page-3 p {
   font-family: AvenirLight, Helvetica, sans-serif;
   line-height: 3rem;
   text-align: justify;
