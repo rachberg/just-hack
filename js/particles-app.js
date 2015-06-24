@@ -10,7 +10,7 @@ particlesJS.load('particles-js', 'particles.json', function() {
 */
 
 /* Otherwise just put the config content (json): */
-
+function startParticles() {
 particlesJS('particles-js',
   
 {
@@ -124,4 +124,4 @@ particlesJS('particles-js',
   "retina_detect": false
 }
 
-);
+)}
