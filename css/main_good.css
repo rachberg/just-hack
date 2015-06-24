@@ -3,14 +3,17 @@
 /*using compound color scheme colors*/
 /*STYLING*/
 a {
-  color: black;
-  font-family: AvenirMedium, Helvetica, sans-serif;
-  text-decoration: none;
+  color: #007f6d;
+  font-weight: bold;
 }
 
 a:hover {
-  color: black;
+  color: #00dbbb;
   text-decoration: none;
+}
+
+.bold {
+  font-family: AvenirMedium, Helvetica, sans-serif;
 }
 
 .btn-primary {
@@ -24,16 +27,6 @@ a:hover {
   background-color: #D75A49;
   border-style: solid;
   border-color: #D75A49;
-}
-
-.container li {
-  font-family: AvenirLight, Helvetica, sans-serif;
-  line-height: 3rem;
-  font-size: 1.5  rem;
-}
-
-#cover {
-  margin: 0 auto;
 }
 
 #date {
@@ -50,58 +43,44 @@ a:hover {
 }
 @font-face {
   font-family: LustScript;
-  src: url("../fonts/LustScript.otf");
+  src: url("/fonts/LustScript.otf");
 }
 @font-face {
   font-family: NexaLight;
-  src: url("../fonts/NexaLight.otf");
+  src: url("/fonts/NexaLight.otf");
 }
 @font-face {
   font-family: SailScript;
-  src: url("../fonts/Sail-Regular.otf");
+  src: url("/fonts/Sail-Regular.otf");
 }
 form {
   text-align: center;
 }
 
-.form-inline .form-control {
-  width: 80%;
-}
-
-.further-reading {
-  font-size: 1.5rem;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: AvenirLight, Helvetica, sans-serif;
-  color: black;
+  color: white;
 }
 
 h1 {
   font-family: LustScript, SailScript, cursive;
-  letter-spacing: 0.2vw;
+  letter-spacing: 3px;
   font-size: 6rem;
   padding-bottom: 1rem;
+  color: white;
 }
 
 h2 {
   font-size: 5rem;
-  font-family: AvenirMedium, Helvetica, sans-serif;
-  padding-top: 5vh;
 }
 
 h3 {
-  font-family: AvenirLight, Helvetica, sans-serif;
   font-size: 3rem;
 }
 
 h4 {
-  font-family: AvenirMedium, Helvetica, sans-serif;
+  font-family: AvenirLight, Helvetica, sans-serif;
   font-size: 2rem;
-}
-
-h5 {
-  font-family: AvenirMedium, Helvetica, sans-serif;
 }
 
 .container p {
@@ -109,7 +88,11 @@ h5 {
 }
 
 .dropdown-menu > .active > a:focus {
-  background-color: white;
+  background-color: #00dbbb;
+}
+
+.float-left {
+  /*	float: left; Not yet */
 }
 
 .float-right {
@@ -130,16 +113,7 @@ label {
   float: right;
   font-size: 2rem;
   font-family: AvenirLight, Helvetica, sans-serif;
-  color: black;
-}
-
-#left-column {
-  padding-right: 2rem;
-}
-
-#mailing-list {
-  display: block;
-  margin: auto;
+  color: white;
 }
 
 .mc_embed_signup {
@@ -158,20 +132,25 @@ label {
   display: block;
 }
 
+#mce-EMAIL {
+  width: 100%;
+}
+
+#mce-NAME {
+  width: 100%;
+}
+
 .nav {
   height: 20px;
   font-size: 1.5em;
-  font-family: AvenirLight, Helvetica, sans-serif;
-}
-
-.nav a {
-  color: black;
+  font-family: NexaLight, Helvetica, sans-serif;
+  text-transform: uppercase;
 }
 
 .nav > li > a:hover,
 .nav > li > a:focus {
   color: white;
-  background-color: transparent;
+  background-color: rgba(0, 219, 187, 0.8);
 }
 
 .navbar-brand {
@@ -185,7 +164,6 @@ label {
 .navbar .navbar-nav {
   float: none;
   display: inline-table;
-  margin-bottom: 0;
 }
 
 .nav-pills > li.active > a:hover,
@@ -201,13 +179,8 @@ label {
   font-weight: normal;
 }
 
-#page-1, #page-2, #page-3 {
-  padding-bottom: 5vh;
-}
-
-#page-1, #page-2, #page-3 {
+#page-2 {
   letter-spacing: 1px;
-  background-color: white;
 }
 
 #page-2 h2 {
@@ -223,53 +196,17 @@ label {
   line-height: 3rem;
   padding-left: 20%;
   padding-right: 20%;
-  padding-top: 3rem;
 }
 
 #page-2 p {
   font-family: AvenirLight, Helvetica, sans-serif;
   line-height: 3rem;
   text-align: justify;
+  padding-right: 20px;
 }
 
-#page-3 {
-  background-color: white;
-  display: block;
-}
-
-#page-3::after {
-  content: "";
-  background: url("../images/triangles.png");
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
-
-#page-3 h4 {
-  font-family: AvenirMedium, Helvetica, sans-serif;
-  padding-top: 2vh;
-}
-
-#page-3 p {
-  font-family: AvenirLight, Helvetica, sans-serif;
-  line-height: 3rem;
-  text-align: justify;
-}
-
-#right-column {
-  padding-left: 2rem;
-}
-
-#sign-up {
+#stay-touch {
   padding-top: 6vh;
-}
-
-strong {
-  font-family: AvenirMedium, Helvetica, sans-serif;
 }
 
 .subtitle {
@@ -277,34 +214,20 @@ strong {
   margin-top: 10vh;
 }
 
-.subtitle h3 {
-  text-transform: uppercase;
-}
-
 .text {
-  pointer-events: none;
   width: 100%;
   display: inline-block;
 }
 
-html, body {
-  margin: 0;
+.wide {
   width: 100%;
   height: 100%;
-  background: white;
-}
-
-canvas {
-  display: block;
-  vertical-align: bottom;
-}
-
-#particles-js {
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  z-index: -1;
+  background-image: url("../images/coming-soon-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: fixed;
   left: 0px;
   top: 0px;
+  z-index: -1;
 }
