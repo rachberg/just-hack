@@ -32,12 +32,12 @@ $nav-blue: rgba(51, 122, 183,0.8);
 
 /*STYLING*/
 a {
-	color: $blue;
+	color: $teal;
 	font-weight: bold;
 }
 
 a:hover {
-	color: $blue;
+	color: $cyan;
 	text-decoration: none;
 }
 
@@ -62,10 +62,6 @@ a:hover {
 .clear {
 	//padding-top: 5rem;
 }
-
-// #cover {
-// 	height: 60vh;
-// }
 
 #date {
 	font-family: $bold-font-stack;
@@ -102,7 +98,7 @@ form {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $font-stack;
-	color: black;
+	color: $white;
 }
 
 h1 {
@@ -110,7 +106,7 @@ h1 {
 	letter-spacing: 3px;
 	font-size: 6rem;
 	padding-bottom: 1rem;
-	// color: black;
+	color: $white;
 }
 
 h2 {
@@ -201,18 +197,13 @@ label {
  .nav {
  	height: 20px;
  	font-size: 1.5em;
- 	font-family: $font-stack;
- 	// font-family: $caps-font-stack;
- 	// text-transform: uppercase;
- }
-
- .nav a {
- 	color: black;
+ 	font-family: $caps-font-stack;
+ 	text-transform: uppercase;
  }
 
  .nav > li > a:hover, 
  .nav > li > a:focus {
-	color: black;
+	color: white;
 	background-color: $transparent-cyan;
  } 
 
@@ -227,8 +218,6 @@ label {
  .navbar .navbar-nav {
 	float: none;
  	display: inline-table;
- 	margin-bottom: 0;
-
  }
 
  .nav-pills > li.active > a:hover,
@@ -284,10 +273,6 @@ label {
  	margin-top: 10vh;
  }
 
- .subtitle h3 {
-	text-transform: uppercase;
- }
-
  .text {
 	width: 100%;
  	display: inline-block;
@@ -299,7 +284,7 @@ label {
 	// margin-top:50px;
 	//height: 60vh;
 	height: 100%;
-	// background-image:url('../images/coming-soon-background.png');
+	background-image:url('../images/coming-soon-background.png');
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size: cover;
