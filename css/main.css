@@ -13,6 +13,11 @@ a:hover {
   text-decoration: none;
 }
 
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
 .btn-primary {
   background-color: #ef6552;
   border-style: solid;
