@@ -175,7 +175,7 @@ label {
 
 .nav > li > a:hover,
 .nav > li > a:focus {
-  color: white;
+  color: #ef6552;
   background-color: transparent;
 }
 
