@@ -141,7 +141,7 @@
         isMobile = (/Android|iPhone|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera);
         if(!isMobile && $(window).width() > 767) {
             startParticles();
-            $('section').css('min-height', $(window).height());
+            $('section').css('min-height', $(window).height() * 1.2);
             $('#main-content-wrapper').stickyStack();
         }
     });
