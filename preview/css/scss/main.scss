@@ -266,12 +266,12 @@ label {
  	background-color: white;
  }
 
- #page-2 h2 {
+ #page-2 h2, #page-schedule h2 {
  	font-family: $bold-font-stack;
  	color: $coral;
  }
 
- #page-2 h3 {
+ #page-2 h3, #page-schedule h3 {
  	font-family: $bold-font-stack;
  	color: $blue;
  	font-size: 2rem;
@@ -282,7 +282,7 @@ label {
     padding-top: 3rem;
  }
 
-#page-2 p {
+#page-2 p, #page-schedule p {
  	font-family: $font-stack;
  	line-height: 3rem;
  	text-align: justify; }

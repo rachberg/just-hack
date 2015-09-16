@@ -168,11 +168,11 @@ label {
   letter-spacing: 1px;
   background-color: white; }
 
-#page-2 h2 {
+#page-2 h2, #page-schedule h2 {
   font-family: AvenirMedium, Helvetica, sans-serif;
   color: #ef6552; }
 
-#page-2 h3 {
+#page-2 h3, #page-schedule h3 {
   font-family: AvenirMedium, Helvetica, sans-serif;
   color: #2474a1;
   font-size: 2rem;
@@ -182,7 +182,7 @@ label {
   padding-right: 20%;
   padding-top: 3rem; }
 
-#page-2 p {
+#page-2 p, #page-schedule p {
   font-family: AvenirLight, Helvetica, sans-serif;
   line-height: 3rem;
   text-align: justify; }
