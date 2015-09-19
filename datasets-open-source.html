@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="images/favicon.ico">
+<title>JustHack</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery.stickystack.js"></script>
+<script src="js/bootstrap.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64487222-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-pills navbar-fixed-top" role="navigation">
+      <div class="container-fluid" id="navbar-fluid">
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html#about">About</a></li>
+          </ul><!-- /.navbar ul-->
+          <ul class="nav navbar-nav navbar-right">
+            <li aria-labelledby="language"><a href="./schedule_fr.html">FR</a></li>
+          </ul><!-- /.navbar-right ul-->
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </div><!-- /.container-->
+<div class="main-content-wrapper">
+<section id="page-1" >
+  <div class="subtitle text">
+    <img id="cover" src="images/cover_pic.png" class="img-responsive" alt="JustHack" >
+    <h1>JustHack Inspiration</h1> 
+  </div><!-- /.subtitle-->
+ </section><!-- /.page 1-->
+
+<section id="page-2">
+  <div class="container">
+  <h2 id="sched">Datasets & Open Source Projects</h2>
+    <div class="row">
+      <p> Here you can find a list of datasets and open source projects to inspire you. Happy Hacking!
+        <ul style="font-size:16px">
+         <li> <a href="http://www.refugerestrooms.org/">REFUGE Restrooms</a> is a "web application that seeks to provide safe restroom access for transgender, intersex, and gender nonconforming individuals. Users can search for restrooms by proximity to a search location, add new restroom listings, as well as comment and rate existing listings. We seek to create a community focused not only on finding existing safe restroom access but also looking forward and participating in restroom advocacy for transgender, intersex, and gender nonconforming folk." The <a href="https://github.com/RefugeRestrooms/refugerestrooms">code</a> is open source: you can contribute to the project. They also have a <a href="http://www.refugerestrooms.org/api/docs/">public API</a>. </li>
+
+         <li>The city of Montreal has publicly available data collected over the years on its <a href="http://donnees.ville.montreal.qc.ca/group">website</a>. There are over 150 datasets available, organized by themes such as <a href="http://donnees.ville.montreal.qc.ca/group/developpement-economique"> economic development</a>, <a href="http://donnees.ville.montreal.qc.ca/group/election-referendum">elections and referenda</a>, <a href="http://donnees.ville.montreal.qc.ca/group/environnement">environment</a>, <a href="http://donnees.ville.montreal.qc.ca/group/immeubles-terrains">buildings and land</a>, <a href="http://donnees.ville.montreal.qc.ca/group/urbanisme-habitation">urbanism and housing</a>, <a href="http://donnees.ville.montreal.qc.ca/group/sports-loisirs-culture-developpement-social">sports, leisure, culture and social development</a>, <a href="http://donnees.ville.montreal.qc.ca/group/securite-publique">public security</a>, <a href="http://donnees.ville.montreal.qc.ca/group/organisation-administration">organizations and administrations</a>, <a href="http://donnees.ville.montreal.qc.ca/group/legislation-affaires-juridiques"> legislation and juridic affairs</a> and <a href="http://donnees.ville.montreal.qc.ca/group/infrastructures">infrastructures</a>. </li>
+
+         <li>The United Nations Economic Commission for Europe provides <a href="(http://www.unece.org/stats/stats_h.html)">statistical information</a> on the population of 56 countries , arranged by <a href="http://w3.unece.org/PXWeb/en">themes</a>: country overviews, population and gender, economy, millennium development goals, transport and forestry. </li>
+
+         <li> The <a href="http://data.worldbank.org/">World Bank Open Data</a> provides national and international statistics, easily browsable by country or by topics.</li>
+        </ul>
+      </p>
+
+    </div> <!-- /.row-->
+</div><!-- /.container-->
+</section><!-- /.page-2-->
+</div><!-- main-content-wrapper-->
+
+<script src="js/particles-app.js"></script>
+<script type="text/javascript">
+    $(window).load(function() {
+        isMobile = (/Android|iPhone|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera);
+        if(!isMobile && $(window).width() > 767) {
+            //$('section').css('min-height', $(window).height() * 1.2);
+            $('.main-content-wrapper').stickyStack();
+        }
+    });
+
+</script>
+</body>
+</html>
